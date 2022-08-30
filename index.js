@@ -13,7 +13,7 @@ class Circle {
         return Math.PI * this.radius * this.radius;
     }
 }
-let circle = new Circle();
+let circle = new Circle(+prompt("Nhập bán kinh vào",""));
 let radius = circle.getRadius();
 let area = circle.getArea();
 alert("radius : " + radius + "; area: " + area);
